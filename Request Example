@@ -1,0 +1,4 @@
+Rest r = new Rest();
+r.get('http://google.com');
+r.getResponseString();
+String textRetrieved = r.getResponseText();
